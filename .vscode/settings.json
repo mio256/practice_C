@@ -1,0 +1,10 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4,ColumnLimit: 255}",
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4,ColumnLimit: 255}",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "files.associations": {
+        "stdio.h": "c"
+    },
+}

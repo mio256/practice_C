@@ -1,0 +1,69 @@
+// {
+//     // IntelliSense を使用して利用可能な属性を学べます。
+//     // 既存の属性の説明をホバーして表示します。
+//     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "gcc - アクティブ ファイルのビルドとデバッグ",
+//             "type": "cppdbg",
+//             "request": "launch",
+//             "program": "${fileDirname}/${fileBasenameNoExtension}",
+//             "args": [],
+//             "stopAtEntry": false,
+//             "cwd": "${fileDirname}",
+//             "environment": [],
+//             "externalConsole": false,
+//             "MIMode": "gdb",
+//             "setupCommands": [
+//                 {
+//                     "description": "gdb の再フォーマットを有効にする",
+//                     "text": "-enable-pretty-printing",
+//                     "ignoreFailures": true
+//                 }
+//             ],
+//             "preLaunchTask": "C/C++: gcc アクティブなファイルのビルド",
+//             "miDebuggerPath": "/usr/bin/gdb"
+//         }
+//     ]
+// }
+//メインに引数を追加するバージョン↓
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gcc - アクティブ ファイルのビルドとデバッグ",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "gdb の再フォーマットを有効にする",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc アクティブなファイルのビルド",
+            "miDebuggerPath": "/usr/bin/gdb",
+            //2020/main http://www7019ug.sakura.ne.jp:80/CHaserOnline003/user/ -u cool45 -p cool -r 2531
+            "args": [
+                "http://www7019ug.sakura.ne.jp:80/CHaserOnline003/user/",
+                "-u",
+                "cool85",
+                "-p",
+                "cool",
+                "-r",
+                "2531",
+            ]
+        }
+    ]
+}
